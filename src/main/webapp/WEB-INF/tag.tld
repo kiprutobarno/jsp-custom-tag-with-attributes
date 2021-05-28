@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE xml>
+<taglib version="2.0" xmlns="https://java.sun.com/xml/j2ee" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>Custom tag with attributes</short-name>
+
+    <tag>
+        <name>square</name>
+        <tag-class>com.ywalakamar.CustomTagWithAttributes</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>number</name>
+            <required>true</required>
+        </attribute>
+    </tag>
+
+</taglib>
